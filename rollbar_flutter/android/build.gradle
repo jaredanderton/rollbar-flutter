@@ -33,7 +33,7 @@ apply plugin: 'checkstyle'
 apply plugin: "com.github.spotbugs"
 
 android {
-    namespace 'com.rollbar.flutter'
+    namespace "com.rollbar.flutter"
     compileSdkVersion 35
 
     compileOptions {
